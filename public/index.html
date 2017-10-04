@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Teaching English Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Loading Bootstrap -->
+    <link href="./flatUI/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="./flatUI/css/flat-ui.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./flatUI/img/favicon.ico">
+
+    <!-- Custom css -->
+    <link href="./css/narrow-jumbotron.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="inputEmail">Email Address</label>
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">                  
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" id="submitRegistrationButton" class="btn btn-primary">Submit</button>           
+              </form>
+            </div>            
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="usernameRegister">Username</label>
+                  <input type="text" class="form-control" id="usernameRegister" placeholder="Enter Username">         
+                </div>
+                <div class="form-group">
+                  <label for="emailRegister">Email Address</label>
+                  <input type="email" class="form-control" id="emailRegister" aria-describedby="emailHelp" placeholder="Enter email">                  
+                </div>
+                <div class="form-group">
+                  <label for="passwordRegister">Password</label>
+                  <input type="password" class="form-control" id="passwordRegister" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="skillLevelSelect">Skill Level</label>
+                  <select class="form-control" id="skillLevelSelect">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" id="submitRegistrationButton" class="btn btn-primary">Submit</button>           
+              </form>
+            </div>            
+          </div>
+        </div>
+      </div>
+      
+      <div class="jumbotron">
+        <h1 class="display-3">Teaching English</h1>
+        <p class="lead">Use our English lessons to learn how to speak it fluently, from the fundamentals to mastery!</p>
+        <p><a id="loginButton" class="btn btn-lg btn-success" href="#" role="button" data-toggle="modal" data-target="#loginModal">Login</a>
+        <a id="registerButton" class="btn btn-lg btn-success" href="#" role="button" data-toggle="modal" data-target="#registerModal">Register</a></p>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <h4>Assessment</h4>
+          <p>Take our simple evaluation to start you on the lesson level you qualify for!</p>
+          <a id="evalButton" class="btn btn-lg btn-success center-block" href="#" role="button">Evaluate Me!</a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Teaching English 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="./flatUI/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./flatUI/js/vendor/video.js"></script>
+    <script src="./flatUI/js/flat-ui.min.js"></script>
+
+  </body>
+</html>
