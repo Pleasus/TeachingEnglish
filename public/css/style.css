@@ -1,8 +1,54 @@
+
 body {
 	background-color: lavender;
 	background-image: url("../images/bg.png");
+	padding-bottom: 0;
+}
+
+h1, h4{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+footer {
+	/*position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;*/
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
 }
 
 .jumbotron {
-	background-color: #e7c7ef;
+	background-color: rgba(231,199,239,.7);
+}
+
+/*CSS for Lessons Pages*/
+hr {
+	border-top: 1px solid rgba(227,227,227,1);
+}
+
+a {
+	color: rgba(46,204,113,1);
+}
+.content {
+	margin-top: 20px;
+}
+
+.glyphicon {
+	margin-right:10px;
+}
+
+.panel-default>.panel-heading {
+	background-color: rgba(231,199,239,1);
+}
+
+.panel-title>a {
+    color: rgba(52,73,94,1);
+}
+a:hover, a:focus {
+    color: rgba(46,204,113,1);
+    text-decoration: none;
 }
