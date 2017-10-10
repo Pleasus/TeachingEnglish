@@ -6,3 +6,5 @@ var Lesson1_1 = React.createClass({
 	    return (<p>This is lesson 1 level 1</p>);
 	}
 });
+
+module.exports = Lesson1_1;

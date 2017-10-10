@@ -29,26 +29,29 @@ var Main = React.createClass(
                                 <div id="collapseOne" className="panel-collapse collapse in">
                                     <div className="panel-body">
                                         <table className="table">
-                                            <tr>
-                                                <td>
-                                                    <Link to="Lesson1_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Link to="Lesson2_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Link to="Lesson_3_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Link to="Lesson_4_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
-                                                </td>
-                                            </tr>
+                                            <thead></thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson1_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson2_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson3_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson4_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
@@ -62,26 +65,29 @@ var Main = React.createClass(
                                 <div id="collapseTwo" className="panel-collapse collapse">
                                     <div className="panel-body">
                                         <table className="table">
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 1</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 2</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 3</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 4</a>
-                                                </td>
-                                            </tr>
+                                            <thead></thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson1_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson2_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson3_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson4_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
@@ -95,26 +101,29 @@ var Main = React.createClass(
                                 <div id="collapseThree" className="panel-collapse collapse">
                                     <div className="panel-body">
                                         <table className="table">
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 1</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 2</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 3</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className="glyphicon glyphicon-record text-success"></span><a href="#">Lesson 4</a>
-                                                </td>
-                                            </tr>
+                                            <thead></thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson1_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson2_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson3_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Link to="/Lesson4_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
@@ -123,10 +132,11 @@ var Main = React.createClass(
                     </div>
                     <div className="col-sm-9 col-md-9">
                         <div className="well">
-                            {/*<h1>Level 1</h1>
-                            <hr />*/}
+                            {/*<h1>Level 1</h1>*/}
+                            
                             {/*This code will dump the correct child component*/}
                             {this.props.children}
+                            <hr />
                         </div>
                     </div>
                 </div>
