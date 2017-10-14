@@ -15,7 +15,6 @@ mongoose.connect('mongodb://localhost/loginapp');
 var db = mongoose.connection;
 
 var routes = require('./routes/index');
-var apiroutes = require('./routes/apiroutes');
 
 // Init App
 var app = express();
@@ -75,7 +74,6 @@ app.use(function (req, res, next) {
 });
 
 app.use('/', routes);
-app.use('/apiroutes', apiroutes);
 
 // Set Port
 app.set('port', (process.env.PORT || 3000));
