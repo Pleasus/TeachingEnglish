@@ -1,18 +1,30 @@
 var React = require("react");
 var verbsarray = require("../../api/verbsarray");
+var Lesson3_1_PresentTenseVerb = require("./grandchildren/Lesson3_1_PresentTenseVerb");
+var Lesson3_1_EnteredVerb = require("./grandchildren/Lesson3_1_EnteredVerb");
 
 
 var Lesson3_1 = React.createClass({
 
     // getVerb() {
-    //     {this.state.randomVerb.present}
+    //     
     //     },
+
+    setVerb: function(verb) {
+    	// this.setState({randomVerb.past: verb});
+    	if(this.state.randomVerb.past === verb){
+    		alert("Correct!");
+    	} else {
+    		alert("Try Again!");
+    	}
+    },
 
     getInitialState: function() { 	
         return {
             score: 0,
             streak: 0,
             randomVerb: verbsarray[Math.floor(Math.random() * verbsarray.length)],
+            enteredVerb: ""
         };
 
     },
@@ -28,23 +40,21 @@ var Lesson3_1 = React.createClass({
 		              <button onClick={this.getVerb}>GO!</button>
 		          	</div>
 		          	<div className="presentTenseVerb">
-
+		          		<Lesson3_1_PresentTenseVerb
+		          		    present = {this.state.randomVerb.present}/>
 		          	</div>
 		          	<div className="header">
-		              <form>
-		                  <input placeholder="Past Tense">
-		                  </input>
-		                  <button type="submit">enter</button>
-		              </form>
+		              <Lesson3_1_EnteredVerb setVerb={this.setVerb}/>
+
 		            </div>
 		            <div className="score">
 		                Score:<br/><br/>
 		                Streak:
 		            </div>
 		       </div>
-
         	);
 		}  
 	});
+
 
 module.exports = Lesson3_1;
