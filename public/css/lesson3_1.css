@@ -16,6 +16,15 @@
     box-shadow: 10px 10px 5px #888888;
 }
 
+
+.presentTenseVerb {
+    text-align: center;
+    font-size: 44px;
+    color: #1abc9c;;
+    margin-top: 10%;
+}
+
+
 .header {
     margin-top: 10%;
     text-align: center;

@@ -19,10 +19,12 @@ var Lesson3_1_EnteredVerb = React.createClass({
 
 	render: function() {
 		return(
-
-			<form onCLick={this.handleSubmit}>
-		       <input value={this.state.enteredVerb} type="text" placeholder="Past Tense">
-		        </input>
+			<form onSubmit={this.handleSubmit}>
+		       <input value={this.state.enteredVerb} 
+		       type="text"
+		       placeholder="Past Tense"
+		       onChange={e => this.setState({enteredVerb: e.target.value})}
+		       />
 		        <button type="submit">enter</button>
 		    </form>
 
