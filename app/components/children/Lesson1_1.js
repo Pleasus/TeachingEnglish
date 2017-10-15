@@ -1,10 +1,29 @@
 var React = require("react");
+var flashcards = require("../../api/flashcards");
+
 
 var Lesson1_1 = React.createClass({
-	render: function()
-	{
-	    return (<p>This is lesson 1 level 1</p>);
+	
+	// flashcards.forEach(
+	// 	element => console.log(flashcards.solution);
+	// );
+
+	render: function() {
+		return(
+			<div>
+				{flashcards.map(function(element,i) {
+				 		return (
+							<div key={i}>
+								{element.image},
+								{element.solution}
+							</div>	
+						);
+				 	})
+				}
+			</div>
+		);
 	}
 });
+
 
 module.exports = Lesson1_1;
