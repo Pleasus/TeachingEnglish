@@ -15,6 +15,9 @@ var Lesson3_1_EnteredVerb = React.createClass({
 	handleSubmit: function(event) {
 		event.preventDefault();
 		this.props.setVerb(this.state.enteredVerb);
+		this.setState({
+				enteredVerb: ""
+			})
 		},
 
 	render: function() {
