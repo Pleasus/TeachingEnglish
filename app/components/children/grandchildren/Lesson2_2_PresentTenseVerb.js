@@ -2,7 +2,7 @@ var React = require("react");
 var verbsarray = require("../../../api/verbsarray");
 
 
-var Lesson3_1_PresentTenseVerb = React.createClass({
+var Lesson2_2_PresentTenseVerb = React.createClass({
 	render: function() {
 		return(
 				<div>	
@@ -12,4 +12,4 @@ var Lesson3_1_PresentTenseVerb = React.createClass({
 	}
 });
 
-module.exports = Lesson3_1_PresentTenseVerb;
+module.exports = Lesson2_2_PresentTenseVerb;

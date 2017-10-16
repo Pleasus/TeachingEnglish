@@ -1,7 +1,7 @@
 var React = require("react");
 var verbsarray = require("../../../api/verbsarray");
 
-var Lesson3_1_EnteredVerb = React.createClass({
+var Lesson2_2_EnteredVerb = React.createClass({
 
 	getInitialState() {
 		return {
@@ -35,4 +35,4 @@ var Lesson3_1_EnteredVerb = React.createClass({
 	}
 });
 
-module.exports = Lesson3_1_EnteredVerb;
+module.exports = Lesson2_2_EnteredVerb;

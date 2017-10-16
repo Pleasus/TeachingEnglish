@@ -1,9 +1,24 @@
 var React = require("react");
+var conditionals = require("../../api/conditionals");
 
 var Lesson1_3 = React.createClass({
 	render: function()
 	{
-	    return (<p>This is lesson 1 level 3</p>);
+	    console.log(conditionals);
+	    return (
+	    	<table className="ConditionalTable">
+	    		<tbody>
+	    			<tr>
+	    				<td>TestData</td>
+	    				<td>TestData2</td>
+	    			</tr>
+	    			<tr>
+	    				<td>TestData</td>
+	    				<td>TestData2</td>
+	    			</tr>
+	    		</tbody>
+	    	</table>
+	    );
 	}
 });
 
