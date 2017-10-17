@@ -131,7 +131,7 @@ var Main = React.createClass(
                         </div>
                     </div>
                     <div className="col-sm-9 col-md-9">
-                        <div className="well">
+                        <div className="row">
                             {/*<h1>Level 1</h1>*/}
                             
                             {/*This code will dump the correct child component*/}

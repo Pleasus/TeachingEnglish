@@ -45,6 +45,7 @@ module.exports = (
 
       {/* If user selects Lesson1_1 then show the appropriate component*/}
       <Route path="Lesson1_1" component={Lesson1_1} />
+      
       {/* If user selects Lesson2_1 then show the appropriate component*/}
       <Route path="Lesson2_1" component={Lesson2_1} />
       {/* If user selects Lesson3_1 then show the appropriate component*/}

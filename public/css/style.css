@@ -1,3 +1,48 @@
+.yellow-box
+{
+    width: 75%;
+    background-color: #ffffa2;
+    margin-left: 10%;
+    padding-bottom: 12%;
+    padding-top: 2%;
+}
+
+.game-title
+{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    font: bold;
+}
+
+#start-button, #restart-button
+{
+    /*width: 30%;
+    height: 70px;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 32px;*/
+    background-color: lightpink;
+}
+
+.show-text
+{
+    text-align: center;
+    font-size: 32px;
+}
+
+form
+{
+    text-align: center;
+}
+
+#submit-button
+{
+    /*width: 30%;
+    height: 70px;
+    font-size: 32px;*/
+    background-color: lightpink;
+}
 
 body {
 	background-color: lavender;
