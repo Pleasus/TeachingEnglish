@@ -31,7 +31,6 @@ var Lesson2_2 = React.createClass({
     },
 
 	render: function() {
-			console.log(this.state.randomVerb.present);
         	return(
 	        	<div className="grammarBanger">
 		          	<div className="instructions">
