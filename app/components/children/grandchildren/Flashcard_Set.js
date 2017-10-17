@@ -1,4 +1,4 @@
-var React = require("react");
+/*var React = require("react");
 
 var Flashcard_Set = React.createClass({
 
@@ -16,9 +16,9 @@ var Flashcard_Set = React.createClass({
 								<div>
 									function(showHide)(
 										console.log("showHide Working"));
-									<button type="button" className="btn btn-primary btn-sm btn-block" value="Show" onclick={showHide}>Show/Hide Definition</button>
+									<button type="button" className="btn btn-primary btn-sm btn-block" value="Show" onclick=showHide>Show/Hide Definition</button>
 								</div>
-									// click function here
+									click function here
 								<div input className="form-control form-control-lg" type="text">
 									{element.solution}
 								</div>
@@ -33,4 +33,4 @@ var Flashcard_Set = React.createClass({
 });
 
 
-module.exports = Flashcard_Set;
+module.exports = Flashcard_Set;*/

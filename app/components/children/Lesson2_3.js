@@ -1,5 +1,6 @@
 var React = require("react");
 
+
 var Lesson2_3 = React.createClass({
 	render: function()
 	{
