@@ -4,11 +4,11 @@ var Result = React.createClass(
 {
     handleRestart: function()
     {
-    	var answersCountObj = {
-    		corrects: 0,
-    		wrongs: 0,
-    		unanswers: 0
-    	};
+        var answersCountObj = {
+            corrects: 0,
+            wrongs: 0,
+            unanswers: 0
+        };
         this.props.setResults("", answersCountObj);
     },
     render: function()

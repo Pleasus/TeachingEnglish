@@ -35,10 +35,10 @@ var Lesson4_1 = React.createClass(
     renderResult: function()
     {
         return (
-        	<Result 
-        	    answersCount={this.state.answersCount}
-        	    setResults={this.setResults}
-        	/>
+            <Result 
+                answersCount={this.state.answersCount}
+                setResults={this.setResults}
+            />
         );
     },
     render: function()
