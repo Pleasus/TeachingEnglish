@@ -9,7 +9,6 @@ var Lesson4_1 = React.createClass(
     {
         return {
             testQuestions: TestQuestions,
-            testAnswers: [],
             answersCount: {
                 corrects: 0,
                 wrongs: 0,
