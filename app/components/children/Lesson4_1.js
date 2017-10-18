@@ -51,7 +51,7 @@ var Lesson4_1 = React.createClass(
                 <div className="jumbotron" style={jumbotronStyle}>
                     <h2 className="text-center">
                         <strong>
-                            <i className=""></i> Multiple Choice Questions
+                            <i className=""></i> Vocabulary Multiple Choice Questions
                         </strong>
                     </h2>
                 </div>
