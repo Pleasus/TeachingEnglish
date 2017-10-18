@@ -7,11 +7,7 @@ var Lesson3_1_NumberMatch = React.createClass({
     console.log(buttonClick);
   },
 
-  handleButtonOne: function(event) {
-    var buttonClick = event.target.value;
-    this.props.getNumWord(buttonClick)
-    console.log(buttonClick);
-  },
+
 
   render: function() {
     return (
@@ -22,7 +18,7 @@ var Lesson3_1_NumberMatch = React.createClass({
           <h4>Click the number and the correct word</h4>          
         </div>
 
-        <div className="container-fluid">
+        <div className="container-fluid whiteBox">
           <div className="row" id="content">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <button value="one" className="btn btn-lg btn-success numeral" onClick={this.handleButton1}>1</button>

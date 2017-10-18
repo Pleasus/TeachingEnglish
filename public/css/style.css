@@ -73,6 +73,8 @@ footer {
 /*CSS for Lessons Pages*/
 hr {
 	border-top: 1px solid rgba(227,227,227,1);
+    margin-top: -10px;
+    margin-bottom: 25px;
 }
 
 a {
@@ -93,6 +95,13 @@ a {
 .panel-title>a {
     color: rgba(52,73,94,1);
 }
+
+.whiteBox {
+    background-color: rgba(255,255,255,.7);
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
 a:hover, a:focus {
     color: rgba(46,204,113,1);
     text-decoration: none;

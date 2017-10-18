@@ -43,20 +43,17 @@ var Lesson4_1 = React.createClass(
     },
     render: function()
     {
-        var jumbotronStyle = {
-            backgroundColor: "#20315A",
-            color: "#FFF"
-        };
         return (
-            <div className="row">
-                <div className="jumbotron" style={jumbotronStyle}>
-                    <h2 className="text-center">
-                        <strong>
-                            <i className=""></i> Multiple Choice Questions
-                        </strong>
-                    </h2>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="wideBox well">
+                      <h1>1.4 Multiple Choice Questions</h1>
+                      <h4>Click the correct word</h4>          
+                    </div>
+                    <div className="whiteBox">
+                        {this.state.result !== "" ? this.renderResult() : this.renderTest()}
+                    </div>
                 </div>
-                {this.state.result !== "" ? this.renderResult() : this.renderTest()}
             </div>
         );
     }

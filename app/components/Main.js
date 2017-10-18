@@ -33,22 +33,22 @@ var Main = React.createClass(
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson1_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
+                                                        <Link to="/Lesson1_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 1</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson2_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
+                                                        <Link to="/Lesson2_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 2</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson3_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
+                                                        <Link to="/Lesson3_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 3</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson4_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
+                                                        <Link to="/Lesson4_1"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 4</button></Link>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -69,22 +69,22 @@ var Main = React.createClass(
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson1_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
+                                                        <Link to="/Lesson1_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 1</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson2_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
+                                                        <Link to="/Lesson2_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 2</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson3_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
+                                                        <Link to="/Lesson3_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 3</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson4_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
+                                                        <Link to="/Lesson4_2"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 4</button></Link>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -105,22 +105,22 @@ var Main = React.createClass(
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson1_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 1</button></Link>
+                                                        <Link to="/Lesson1_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 1</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson2_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 2</button></Link>
+                                                        <Link to="/Lesson2_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 2</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson3_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 3</button></Link>
+                                                        <Link to="/Lesson3_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 3</button></Link>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <Link to="/Lesson4_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-primary btn-lg">Lesson 4</button></Link>
+                                                        <Link to="/Lesson4_3"><span className="glyphicon glyphicon-record text-success"></span><button className="btn btn-success btn-lg">Lesson 4</button></Link>
                                                     </td>
                                                 </tr>
                                             </tbody>

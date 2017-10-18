@@ -33,21 +33,23 @@ var Lesson2_2 = React.createClass({
 	render: function() {
         	return(
 	        	<div className="grammarBanger">
-		          	<div className="instructions">
-		              	<h1>Test Your Knowledge of Past Tense Verbs</h1>
-		          	</div>
-		          	<div className="presentTenseVerb">
-		          		<Lesson2_2_PresentTenseVerb
-		          		    present = {this.state.randomVerb.present}/>
-		          	</div>
-		          	<div className="header">
-		              <Lesson2_2_EnteredVerb setVerb={this.setVerb}/>
-
-		            </div>
-		            <div className="score">
-		                Score: {this.state.score}<br/><br/>
-		                Streak: {this.state.streak}
-		            </div>
+		          	<div className="wideBox well">
+                      <h1>2.2 Past Tense Verbs</h1>
+                      <h4>Test Your Knowledge</h4>          
+                    </div>
+                    <div className="whiteBox">
+    		          	<div className="presentTenseVerb">
+    		          		<Lesson2_2_PresentTenseVerb
+    		          		    present = {this.state.randomVerb.present}/>
+    		          	</div>
+    		          	<div className="header">
+    		              <Lesson2_2_EnteredVerb setVerb={this.setVerb}/>
+    		            </div>
+    		            <div className="score">
+    		                Score: {this.state.score}<br/><br/>
+    		                Streak: {this.state.streak}<br/>
+    		            </div>
+                    </div>
 		       </div>
         	);
 		}  
