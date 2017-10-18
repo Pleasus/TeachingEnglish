@@ -11,12 +11,12 @@ var Test = React.createClass(
     },
     handleAnswerChange: function(event)
     {
-    	console.log(event.currentTarget.value);
+        console.log(event.currentTarget.value);
         this.setState({ selectedAnswer: event.currentTarget.value });
     },
     gradeTest: function(userAnswers, realAnswer, answersCntObj)
     {
-    	let correctFl = false;
+        let correctFl = false;
         let unanswerFl = false;
         let wrongFl = false;
         for (let i = 0; i < userAnswers.length; i++) 
@@ -65,7 +65,7 @@ var Test = React.createClass(
     },
     handleSubmit: function(event)
     {
-    	var AnswersCntObj = {
+        var answersCntObj = {
             corrects: 0,
             wrongs: 0,
             unanswers: 0
@@ -78,15 +78,14 @@ var Test = React.createClass(
             console.log(question);
             const answers = document.getElementsByName(question);
             console.log(answers.length);
-            this.gradeTest(answers, TestAnswer[i], AnswersCntObj);
+            this.gradeTest(answers, TestAnswer[i], answersCntObj);
         }).bind(this))};
 
         let htmlStr = "<p className='show-text'>All Done!</p>";
-        htmlStr += "<p className='show-text'>Correct Answers: " + AnswersCntObj.corrects + "</p>";
-        htmlStr += "<p className='show-text'>Incorrect Answers: " + AnswersCntObj.wrongs + "</p>";
-        htmlStr += "<p className='show-text'>Unanswered: " + AnswersCntObj.unanswers + "</p>";
-        //this.setState({ answersCount: AnswersCntObj})
-        this.props.setResults(htmlStr, AnswersCntObj);
+        htmlStr += "<p className='show-text'>Correct Answers: " + answersCntObj.corrects + "</p>";
+        htmlStr += "<p className='show-text'>Incorrect Answers: " + answersCntObj.wrongs + "</p>";
+        htmlStr += "<p className='show-text'>Unanswered: " + answersCntObj.unanswers + "</p>";
+        this.props.setResults(htmlStr, answersCntObj);
     },
     render: function()
     {
