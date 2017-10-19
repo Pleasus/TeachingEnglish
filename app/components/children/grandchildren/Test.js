@@ -111,7 +111,7 @@ var Test = React.createClass(
                         </div>
                     );
                 }).bind(this))}
-                <button type="submit" className="btn btn-success btn-lg" id="runSubmit" onClick={this.handleSubmit}>Submit</button>
+                <button type="submit" className="btn btn-primary btn-lg" id="runSubmit" onClick={this.handleSubmit}>Submit</button>
             </form>
         );
     }
