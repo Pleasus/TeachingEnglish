@@ -4,7 +4,29 @@ var Lesson3_1_NumberMatch = React.createClass({
   handleButton1: function(event) {
     var buttonClick = event.target.value;
     this.props.getButtonValue(buttonClick)
-    console.log(buttonClick);
+    var btn = this.refs.btn;
+    this.props.getButtonName1(btn);
+  },
+
+  handleButtonOne: function(event) {
+    var buttonClick = event.target.value;
+    this.props.getNumWord(buttonClick)
+    var btn = this.refs.btnOne;
+    this.props.getButtonName2(btn);
+  },
+
+    handleButton2: function(event) {
+    var buttonClick = event.target.value;
+    this.props.getButtonValue(buttonClick)
+    var btn = this.refs.btn2;
+    this.props.getButtonName2(btn);
+  },
+
+  handleButtonTwo: function(event) {
+    var buttonClick = event.target.value;
+    this.props.getNumWord(buttonClick)
+    var btn = this.refs.btnTwo;
+    this.props.getButtonNameTwo(btn);
   },
 
 
@@ -21,8 +43,8 @@ var Lesson3_1_NumberMatch = React.createClass({
         <div className="container-fluid whiteBox">
           <div className="row" id="content">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              <button value="one" className="btn btn-lg btn-success numeral" onClick={this.handleButton1}>1</button>
-              <button value="two" className="btn btn-lg btn-success numeral">2</button>
+              <button ref="btn" name="1" value="one" className="btn btn-lg btn-success numeral" onClick={this.handleButton1}>1</button>
+              <button ref="btn2" name="2" value="two" className="btn btn-lg btn-success numeral" onClick={this.handleButton1}>2</button>
               <button value="three" className="btn btn-lg btn-success numeral">3</button>
               <button value="four" className="btn btn-lg btn-success numeral">4</button>
               <button value="five" className="btn btn-lg btn-success numeral">5</button>
@@ -33,8 +55,8 @@ var Lesson3_1_NumberMatch = React.createClass({
               <button value="ten"  className="btn btn-lg btn-success numeral">10</button>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              <button value="one" className="btn btn-lg btn-light numWord" onClick={this.handleButtonOne}>one</button>
-              <button value="two" className="btn btn-lg btn-light numWord">two</button>
+              <button ref="btnOne" name="one" value="one" className="btn btn-lg btn-light numWord" onClick={this.handleButtonOne}>one</button>
+              <button ref="btnTwo" name="two" value="two" className="btn btn-lg btn-light numWord" onClick={this.handleButtonOne}>two</button>
               <button value="three" className="btn btn-lg btn-light numWord">three</button>
               <button value="four" className="btn btn-lg btn-light numWord">four</button>
               <button value="five" className="btn btn-lg btn-light numWord">five</button>
