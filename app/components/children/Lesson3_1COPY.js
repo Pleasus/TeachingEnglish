@@ -1,38 +1,39 @@
 var React = require("react");
-var Lesson3_1_NumberMatch = React.createClass({
-  
-  handleNumButton: function(event) {
-    var buttonClick = event.target.value;
-    this.props.getNum(buttonClick);
-    var btn = this.refs.btn;
-    this.props.getButtonA(btn);
-  },
+var Lesson3_1 = React.createClass({
+	
+	getInitialState: function() {
+		return{
+			num: "",
+			buttonA: "",
+			text: "",
+			buttonB: "",
+			disabledButtonsArray: []			
+		};
+	},
 
-  handleTextButton: function(event) {
-    var buttonClick = event.target.value;
-    this.props.getText(buttonClick);
-    var btn = this.refs.btn;
-    this.props.getButtonB(btn);
-  },
+	handleNumButton: function(event) {
+	    var buttonClick = event.target.value;
+	    var btn = this.refs.btn;
+	    this.setState({
+	    	num: buttonClick
+	    });
+	    this.setState({
+	    	buttonA: btn
+	    });
+	},
 
-  //   handleButton2: function(event) {
-  //   var buttonClick = event.target.value;
-  //   this.props.getButtonValue2(buttonClick);
-  //   var btn = this.refs.btn2;
-  //   console.log(btn);
-  //   this.props.getButtonName2(btn);
-  // },
+  	handleTextButton: function(event) {
+	    var buttonClick = event.target.value;
+	    var btn = this.refs.btn;
+	    this.setState({
+	    	text: buttonClick
+	    });
+	    this.setState({
+	    	buttonB: btn
+	    });
+	},
 
-  // handleButtonTwo: function(event) {
-  //   var buttonClick = event.target.value;
-  //   this.props.getNumWordTwo(buttonClick);
-  //   var btn = this.refs.btnTwo;
-  //   this.props.getButtonNameTwo(btn);
-  // },
-
-
-
-  render: function() {
+	render: function() {
     return (
       
       <div>
@@ -74,5 +75,8 @@ var Lesson3_1_NumberMatch = React.createClass({
     );
   }
 });
+});
 
-module.exports =  Lesson3_1_NumberMatch;
+
+
+module.exports = Lesson3_1;
