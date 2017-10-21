@@ -1,4 +1,5 @@
 var React = require("react");
+var greatGrandFlashcards = require("./greatGrandChildren/greatGrandFlashcards");
 
 var Flashcard_Set = React.createClass({
 
@@ -7,28 +8,34 @@ var Flashcard_Set = React.createClass({
 		this.props.getShowValue(showButton);
 	},
 
+	solution: function(event) {
+		var solutionValue = event.target.value;
+		this.props.getSolValue(solutionValue);
+		console.log(solutionValue)
+	},
+
 	render: function() {
 		var self=this;
-		var divStyle={
-			visibility: "hidden"
-		};
+		
 		return(
 			<div className="row">
 				{this.props.flashcardSets.map((function(element,i) {
+				 	this.setState.bind({solution:element.solution})
+
 				 	return (
 						<div className="col col-md-6">
 
 							<div>
-								<img src={element.image} width="350px" height="350px" className="img-thumbnail"/>
+								<img src={element.image} width="300px" height="300px" className="img-thumbnail"/>
 							</div>
 
 							<div>
-								<button type="button" className="btn btn-success btn-sm btn-block" value="Show" onClick={self.showHideBtn}>Show/Hide Definition</button>
-							</div>
+								<button type="button" className="btn btn-success btn-sm btn-block" value="Show" onClick={this.showHideBtn}>Show</button>
 
-							<div input className="form-control form-control-lg" type="text" style={divStyle}>
-								{element.solution}
 							</div>
+							<br/>
+
+							<greatGrandFlashcards value={this.solution}/>
 						</div>
 
 					);

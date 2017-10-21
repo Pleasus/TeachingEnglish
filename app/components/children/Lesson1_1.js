@@ -8,12 +8,17 @@ var Lesson1_1 = React.createClass({
 	getInitialState: function () {
 		return{
 			showBtn: "",
-			flashcardSets: flashcards
+			flashcardSets: flashcards,
+			solValue: "",
 		};
 	},
 
 	getShowValue: function(showButton){
 		this.setState({showBtn:showButton})
+	},
+
+	getSolValue: function(solutionValue){
+		this.setState({solValue:solutionValue})
 	},
 
 	render: function() {
