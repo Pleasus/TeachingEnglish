@@ -13,7 +13,7 @@ var Lesson1_2 = React.createClass({
 		    		<h3>Past Simple</h3>
 		    		<h5>Usage</h5>
 		    		<p>Use the past simple to talk about something that happened at a definite time in the past.</p>
-		    		<p>The past simple often uses words that refer to a time in the past such as yesterday, last week, last night, jsut, etc.</p>
+		    		<p>The past simple often uses words that refer to a time in the past such as yesterday, last week, last night, just, etc.</p>
 		    		<h5>Form</h5>
 		    		<p>For regular verbs, add "ed" to the end of the base verb.</p>
 		    		<h5>Examples</h5>
