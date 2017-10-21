@@ -1,25 +1,18 @@
 var React = require("react");
+var flashcards = require("../../../../api/flashcards");
 
 var greatGrandFlashcards = React.createClass({
 
-	solution: function(event){
-		var solutionValue = event.target.value;
-		this.props.getSolValue(solutionValue);
-		console.log(solutionValue)
-	},
-
 	render: function() {
-		var divStyle={
-			visibility: "hidden"
-		};
-
+		
 		return(
 			
-			<div input className="form-control form-control-lg" type="text" style={divStyle}>
+			<div className="form-control form-control-lg" type="text" >
+				hello, please work.
 				{this.props.solution}
 			</div>
 		);
 	}
 });						
 
-module.exports=greatGrandFlashcards;
+module.exports = greatGrandFlashcards;

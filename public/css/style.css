@@ -106,3 +106,8 @@ a:hover, a:focus {
     color: rgba(46,204,113,1);
     text-decoration: none;
 }
+
+.flashcardButton {
+    width: 300px;
+    margin-bottom: 15px;
+}
