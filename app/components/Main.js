@@ -16,7 +16,7 @@ var Main = React.createClass(
                             <div className="panel panel-default">
                                 <div className="panel-heading">
                                     <h4 className="panel-title">
-                                        <a data-parent="#accordion" href="index.html"><span className="glyphicon glyphicon-home"></span>Home</a>
+                                        <a data-parent="#accordion" href="index"><span className="glyphicon glyphicon-home"></span>Home</a>
                                     </h4>
                                 </div>
                             </div>
