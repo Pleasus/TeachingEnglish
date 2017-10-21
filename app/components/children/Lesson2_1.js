@@ -36,6 +36,10 @@ var Lesson2_1 = React.createClass({
 
 		return(
 			<div className="row">
+				<div className="wideBox well">
+		          <h1>1.2 Reveal The Fruit</h1>
+		          <h4>Click the button and reveal the word</h4>          
+	        	</div>
 				{this.state.flashcardSets.map((function(element,i) {
 
 				 	return (

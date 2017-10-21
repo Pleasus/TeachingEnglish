@@ -34,9 +34,9 @@ var Lesson3_2 = React.createClass({
 	render: function() {
 		return(
 	    	<div className="grammarBanger">
-		        <div className="instructions">
-		            <h1>Test Your Knowledge of Present Perfect Tense Verbs</h1>
-		            <h3>Answer in third person singular</h3>
+	    		<div className="wideBox well">
+		          <h1>2.3 Test Your Knowledge of Present Perfect Tense Verbs</h1>
+		          <h4>Answer in third person singular</h4>          
 		        </div>
 		        <div className="presentTenseVerb">
 		          	<Lesson3_2_PresentPerfectTenseVerb

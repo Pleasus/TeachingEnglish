@@ -34,10 +34,11 @@ var Lesson4_2 = React.createClass({
 	render: function() {
 	    return (
 	    	<div className="grammarBanger">
-		        <div className="instructions">
-		            <h1>Test Your Knowledge of Past Perfect Tense Verbs</h1>
-		            <h3>Answer in third person</h3>
-		        </div>
+		        
+	    		<div className="wideBox well">
+		          <h1>2.4 Test Your Knowledge of Past Perfect Tense Verbs</h1>
+		          <h4>Answer in third person</h4>          
+	        	</div>
 		        <div className="presentTenseVerb">
 		          	<Lesson4_2_PastPerfectTenseVerb
 		          		present = {this.state.randomVerb.present}/>
