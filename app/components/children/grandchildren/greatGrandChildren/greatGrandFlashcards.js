@@ -1,18 +1,16 @@
 var React = require("react");
-var flashcards = require("../../../../api/flashcards");
 
-var greatGrandFlashcards = React.createClass({
+var GreatGrandFlashcards = React.createClass({
 
 	render: function() {
-		
+        console.log(this.props.solution);
 		return(
-			
-			<div className="form-control form-control-lg" type="text" >
-				hello, please work.
+
+			<div className="flashcardButton form-control form-control-lg text-center" type="text">
 				{this.props.solution}
 			</div>
 		);
 	}
-});						
+});
 
-module.exports = greatGrandFlashcards;
+module.exports = GreatGrandFlashcards;

@@ -13,21 +13,22 @@ var Test = React.createClass(
     {
         console.log(event.currentTarget.value);
         this.setState({ selectedAnswer: event.currentTarget.value });
+        console.log(this.state.selectedAnswer);
     },
     gradeTest: function(userAnswers, realAnswer, answersCntObj)
     {
         let correctFl = false;
         let unanswerFl = false;
         let wrongFl = false;
-        for (let i = 0; i < userAnswers.length; i++) 
-        {       
+        for (let i = 0; i < userAnswers.length; i++)
+        {
             let answer = userAnswers[i];
             console.log(answer);
             console.log(answer.checked);
             if (answer.checked)
             {
                 console.log(answer.value);
-                if (answer.value === realAnswer) 
+                if (answer.value === realAnswer)
                 {
                     console.log("Correct Answer!")
                     correctFl = true;
@@ -100,7 +101,7 @@ var Test = React.createClass(
                                 return (
                                     <label key={j+1} className="radio-inline">
                                         <input
-                                            type="radio" 
+                                            type="radio"
                                             value={testAnswer}
                                             name={qStr}
                                             onChange={this.handleAnswerChange}
