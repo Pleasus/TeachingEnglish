@@ -10,13 +10,13 @@ router.get('/', function(req, res){
 	res.render('index');
 });
 
-// function ensureAuthenticated(req, res, next){
-// 	if(req.isAuthenticated()){
-// 		return next();
-// 	} else {
-// 		res.redirect('/');
-// 	}
-// }
+function ensureAuthenticated(req, res, next){
+	if(req.isAuthenticated()){
+		return next();
+	} else {
+		res.redirect('/lessons.html');
+	}
+}
 
 // Register User
 router.post('/register', function(req, res){
@@ -62,6 +62,7 @@ router.post('/register', function(req, res){
 passport.use(new LocalStrategy(
   function(username, password, done) {
    User.getUserByUsername(username, function(err, user){
+   	// console.log(user);
    	if(err) throw err;
    	if(!user){
    		return done(null, false, {message: 'Unknown User'});
@@ -89,9 +90,9 @@ passport.deserializeUser(function(id, done) {
 });
 
 router.post('/login',
-  passport.authenticate('local', {successRedirect:'../lessons.html', failureRedirect:'/',failureFlash: true}),
+  passport.authenticate('local', {successRedirect:'/lessons.html', failureRedirect:'/',failureFlash: true}),
   function(req, res) {
-    res.redirect('/');
+    console.log(req.body);
   });
 
 router.get('/react', function(req, res){

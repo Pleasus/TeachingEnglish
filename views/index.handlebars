@@ -5,14 +5,14 @@
               <h5 class="modal-title" id="ModalLabelL">Login</h5>
             </div>
             <div class="modal-body">
-              <form>
+              <form method="post" action="/login">
                 <div class="form-group">
                   <label for="inputEmail">Email Address</label>
-                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">                  
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" name="username">                  
                 </div>
                 <div class="form-group">
                   <label for="inputPassword">Password</label>
-                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
                 </div>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" id="submitRegistrationButton" class="btn btn-primary">Submit</button>           
