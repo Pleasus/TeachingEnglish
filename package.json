@@ -23,9 +23,11 @@
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",
+    "prop-types": "^15.6.0",
     "react": "^0.14.9",
     "react-dom": "^0.14.9",
-    "react-router": "^2.4.1"
+    "react-router": "^2.4.1",
+    "styled-components": "^2.2.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

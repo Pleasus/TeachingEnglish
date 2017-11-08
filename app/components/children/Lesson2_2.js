@@ -35,7 +35,7 @@ var Lesson2_2 = React.createClass({
 	        	<div className="grammarBanger">
 		          	<div className="wideBox well">
                       <h1>2.2 Past Tense Verbs</h1>
-                      <h4>Test Your Knowledge</h4>          
+                      <h4>Test Your Knowledge</h4>
                     </div>
                     <div className="whiteBox">
     		          	<div className="presentTenseVerb">
