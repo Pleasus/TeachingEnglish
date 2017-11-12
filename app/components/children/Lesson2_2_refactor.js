@@ -1,5 +1,5 @@
 
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 // import verbsarray from "../../api/verbsarray";
 // import Lesson2_2_PresentTenseVerb from "./grandchildren/Lesson2_2_PresentTenseVerb";
 // import Lesson2_2_EnteredVerb from "./grandchildren/Lesson2_2_EnteredVerb";
